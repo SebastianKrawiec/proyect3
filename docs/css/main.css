@@ -107,15 +107,15 @@ body {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.7);
   background-size: cover; }
   .display:nth-child(1) {
-    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../../img/kit-aventura.jpg); }
+    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../img/kit-aventura.jpg); }
   .display:nth-child(2) {
-    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../../img/kit-lago.jpg);
+    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../img/kit-lago.jpg);
     background-position: 55%; }
   .display:nth-child(3) {
-    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../../img/kit-montaña.jpg);
+    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../img/kit-montaña.jpg);
     background-position: 65% 50%; }
   .display:nth-child(4) {
-    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../../img/kit-trekking.jpg);
+    background-image: linear-gradient(to bottom, #686767, rgba(104, 103, 103, 0.5)), url(../img/kit-trekking.jpg);
     background-position: 55% 50%;
     background-size: 55rem 40rem; }
 
