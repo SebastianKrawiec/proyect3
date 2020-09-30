@@ -1,0 +1,14 @@
+.content-card{
+  margin: 5rem auto;
+  background-color: $card-gray;
+  border-right: $border-big;
+  color: $primary-color-light;
+  height: 32.1rem;
+  box-shadow: $main-shadow;
+
+  &__img{
+    width: 100%;
+    border: $border-big;
+  }
+
+}

@@ -1,0 +1,62 @@
+/*
+              GRILLA
+*/
+
+$grid-width:80vw;
+$gutter-horizontal:4%;
+$gutter-vertical:2rem;
+
+
+
+
+/* 
+               COLORES
+*/
+
+$primary-color:#FFA938;
+$primary-color-light:#F6ED93;
+$primary-color-dark:#D16C1A;
+
+$card-gray:rgb(104, 103, 103);
+$display-gray:rgb(170, 169, 169);
+
+
+/*
+            SOMBRAS
+*/
+
+$main-shadow: 0 1rem 1rem rgba(0,0,0, .7);
+$secondary-shadow: 0 2rem 3rem rgba(0,0,0, .5);
+$item-shadow: 0 1.3rem 1.5rem rgba(0,0,0, .5);
+
+//--------sombras--botones
+
+$btn-hover-shadow:0 1rem 2rem rgba(0,0,0, .5);
+$btn-active-shadow: 0 1rem 1rem rgba(0,0,0, 1);
+ 
+
+/*
+          PROPIEDADES TEXTO
+*/
+
+$text-padding:2rem 3rem;
+$h-bottom-margin:3rem;
+
+
+/*
+          BORDES
+*/
+
+$border-big: 2rem solid $primary-color;
+$border-medium: 1rem solid $primary-color;
+$border-small: .5rem solid $primary-color;
+$border-dark: 1rem solid $primary-color-dark; 
+
+
+
+/*
+      MARGENES SECCIONES
+*/
+
+$general-margin: 0 auto;
+$grl-top-bottom-mrg: 10rem auto;

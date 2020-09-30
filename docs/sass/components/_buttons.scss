@@ -1,0 +1,108 @@
+.btn{
+  
+  &,
+  &:link,
+  &:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    display: block;
+    padding: 1rem 2rem;
+    transition: all .2s;
+
+  }
+
+  &:hover{
+    transform: translateY(-.3rem) scale(1.1);
+    box-shadow: $btn-hover-shadow;
+  }
+
+  &:active,
+  &:focus{
+    outline: none;
+    transform: translateY(-.1rem) scale(1) ;
+    box-shadow: $btn-active-shadow;
+    background-color:$primary-color-dark;
+  }
+
+
+  &--display{
+  
+    color:#ffff;
+    background-color: $primary-color;
+    float: right;
+  }
+
+  &--header{
+
+    color: #ffff;
+    background-color: $primary-color-dark;
+    position: absolute;    
+    top: 36.5rem;
+    right: 11.5rem;
+
+  }
+
+  &--temp{
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: $primary-color-light;
+    background-color: transparent;
+    border: none;
+
+    &:active{
+      background-color: $display-gray;
+    }
+
+  }
+
+  
+
+  &--back{
+    position: absolute;
+    top: 196.7rem;
+    left: 14.3rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    z-index: 10;
+    padding: 1.5rem 1rem;
+    background-color: $primary-color;
+    color: #ffff;
+    border: none;
+    opacity:0;
+    visibility: hidden;
+    
+
+    &:hover{
+      background-color: $primary-color-dark;
+    }
+
+    
+
+  }
+  
+  &--gallery-bottom{
+    
+    float: right;
+    background-color: $primary-color;
+    color: #ffff;
+    margin-top: 5rem;
+  }
+
+
+  &--nosotros{
+    background-color:$primary-color;
+    color: $primary-color-light;
+  }
+
+  &--footer{
+    background-color: $primary-color;
+    color: $primary-color-light;
+  }
+}
+
+

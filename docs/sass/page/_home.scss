@@ -1,0 +1,31 @@
+.inicio{
+  
+  margin: 5rem auto;
+  padding: 3rem 0;
+
+}
+
+.content-home{
+  margin: $grl-top-bottom-mrg;
+  padding:2rem;
+  border: $border-dark;
+  box-shadow: $main-shadow;
+}
+
+.galeria{
+  //background-color: greenyellow;
+  margin: $grl-top-bottom-mrg;
+  width: $grid-width;
+  padding-bottom: 10rem;
+}
+
+
+.nosotros{
+
+  width: $grid-width;
+  margin: $grl-top-bottom-mrg;
+  padding-bottom: 2rem;
+  border-bottom: $border-big;
+  
+}
+

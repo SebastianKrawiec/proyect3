@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100vw;
+  height: 100%;
+  background-image: linear-gradient(to top,
+                      rgba($primary-color, .2),
+                      rgba($primary-color-dark, 1)),
+  url(../../img/DSC_4438.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  overflow-x: hidden;
+
+}
+

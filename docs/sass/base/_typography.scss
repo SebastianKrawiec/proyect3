@@ -1,0 +1,69 @@
+@font-face{
+  font-family: "Squealer";
+  src: url(../../font/squealer.ttf);
+  font-weight: normal;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+.primary-heading{
+    display: inline-block;
+    padding: $text-padding;
+    text-transform: uppercase;
+    font-size: 3rem;
+    border-left: $border-big;
+    margin-bottom: $h-bottom-margin;
+    color: $primary-color-light;
+
+    &--display{
+      font-size: 1.8rem;
+      padding: 1rem;
+      letter-spacing: .3rem;
+    }
+    
+    &--galeria{
+      padding: 1.2rem .8rem;
+      font-size: 2rem;
+      letter-spacing: .3rem;
+      margin-left: -2rem;
+      margin-top: -1rem;
+      
+    }
+
+    &--nosotros{
+      margin-bottom: 0;
+      background-color: $card-gray;
+    }
+}
+
+.content-card__text{
+    
+  display: block;
+  padding: $text-padding;
+  width: 100%;
+  border-bottom: .5rem solid $primary-color;
+}
+
+.nosotros--text{
+  color: $primary-color-light;
+  background-color: $card-gray;
+  display: block;
+  padding: $text-padding;
+  width: 100%;
+  border-bottom: .5rem solid $primary-color;
+  
+}
+
+.footer__text{
+  color: $primary-color-light;
+  margin-bottom: 2rem;
+
+  &:last-child{
+    padding-left: 2rem;
+    border-left: $border-medium;
+  }
+}
