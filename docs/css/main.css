@@ -40,7 +40,7 @@ body {
 
 @font-face {
   font-family: "Squealer";
-  src: url(../../font/squealer.ttf);
+  src: url(../font/squealer.ttf);
   font-weight: normal; }
 
 body {
@@ -341,7 +341,7 @@ body {
   .header-intro {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to left bottom, rgba(246, 237, 147, 0.5), rgba(255, 169, 56, 0.8)), url(../../img/fondo.jpg);
+    background-image: linear-gradient(to left bottom, rgba(246, 237, 147, 0.5), rgba(255, 169, 56, 0.8)), url(../img/fondo.jpg);
     background-size: cover;
     border-bottom: 0.5rem solid #FFA938; }
   .header-box {
